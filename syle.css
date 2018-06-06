@@ -23,6 +23,7 @@ html, body{
 
 #navigation{
   background-color: rgb(40,44,52);
+  height: 60px;
 }
 /*in html "div id" erstellt, muss in CSS mit # angesprochen werden
 hier: navigation umfasst gesamten header, deshalb background color hier, geht nicht in wrapper*/
@@ -31,6 +32,7 @@ hier: navigation umfasst gesamten header, deshalb background color hier, geht ni
   width: 90%;
   margin: auto;
 }
+
 /*in html "div class" erstellt, muss in CSS mit . angesprochen werden
 gilt nur für Logo im header
 ist class und nicht id um es auf der gesamten Seite zu nutzen, effizienter als id die immer wieder neu erstellt werden muss
@@ -43,6 +45,17 @@ width 90% von ursprunglicher Größe (zieht zB Logo mehr in Mitte), margin auto 
   font-weight: bold;
 }
 
-#navigation li{
+nav li{
   list-style: none;
+  float: left;
+  margin-left: 2em
+}
+/*margin-left: Abstände der einzelnen Wörter, em: px geht auch*/
+
+#menu{
+  float: right;
+}
+
+#logo {
+  margin-top: 10px;
 }

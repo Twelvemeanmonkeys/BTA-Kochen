@@ -24,11 +24,11 @@ div class: generell, fasst etwas zusammen z.B. wrapper kann auf gesamter Seite a
 div class: um effizienter zu arbeiiten, muss nicht immer neue id vergeben werden-->
         <a href="index.html" title="zur Startseite">
 <!--Verlinkung auf Homeseite bei Klick auf Logo, title ist in diesem Fall ein Attribut, zeigt beim herüberfahren Text an, auch Keywords möglich-->
-          <img src="img/logo.svg" alt="Logo BTA Kochen" height="40">
+          <img id="logo" src="img/logo.svg" alt="Logo BTA Kochen" height="40" >
 <!--./img ist auch möglich, Bedeutung: gleicher Ornder, dort hingehen und Bild holen-->
       </a>
 
-      <nav>
+      <nav id="menu">
         <ul>
           <li>
             <a href="#">Home</a>
@@ -49,3 +49,20 @@ div class: um effizienter zu arbeiiten, muss nicht immer neue id vergeben werden
     </header>
   </body>
 </html>
+
+
+<!--@media(min-width: 1024px){
+  .box{
+    width: 50%;
+
+  }
+
+p{
+  width: 33.33333%;
+}
+@media(min-width: 1600px){
+  p{
+    color: red;
+  }
+}
+}-->
