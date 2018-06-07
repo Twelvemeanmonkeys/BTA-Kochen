@@ -12,8 +12,11 @@ lang=de-de, en, de-ch - Schweiz-->
 <!-- meta=Daten die Daten beschreiben, kommen immer in den head
 charset=Character set zur Darstellung von ü,ö,ä-->
     <title>BTA Kochen | Startseite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--mach dich immer so breit wie device breit ist -->
     <meta name="description" content="Hmmmm... Tolle Rezepte für Nerds und solche die es werden wollen. Schnell und einfach zubereitet.">
     <link rel="stylesheet" href="syle.css">
+    <link rel="stylesheet" href="fonts/icons.css">
   </head>
   <body>
     <header id="navigation">
@@ -27,7 +30,9 @@ div class: um effizienter zu arbeiiten, muss nicht immer neue id vergeben werden
           <img id="logo" src="img/logo.svg" alt="Logo BTA Kochen" height="40" >
 <!--./img ist auch möglich, Bedeutung: gleicher Ornder, dort hingehen und Bild holen-->
       </a>
-
+      <button id="burger">
+          <span class="icon-menu"></span>
+      </button>
       <nav id="menu">
         <ul>
           <li>
@@ -47,22 +52,16 @@ div class: um effizienter zu arbeiiten, muss nicht immer neue id vergeben werden
       </nav>
       </div>
     </header>
+
+    <section id="hero">
+      <div class="hero-text">
+        <h1>Die besten Rezepte für Webworker</h1>
+          <p>Es gibt mehr als Pizza & Bier</p>
+
+       <a href="#" class="btn">
+         Entdecke die Leckereien
+       </a>
+      </div>
+
   </body>
 </html>
-
-
-<!--@media(min-width: 1024px){
-  .box{
-    width: 50%;
-
-  }
-
-p{
-  width: 33.33333%;
-}
-@media(min-width: 1600px){
-  p{
-    color: red;
-  }
-}
-}-->
