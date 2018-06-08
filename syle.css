@@ -121,10 +121,46 @@ nav li{
   background: rgb(69,139,116);
 }
 
+#rezepte h2{
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+#rezepte img{
+  width: 100%;
+}
+
+
+
+.col img{
+  border-radius: 4px 4px 0 0;
+  display: block;
+}
+
+.text-rezept{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 0 0 4px 4px;
+  text-align: center;
+  padding: 1em;
+}
+
+.text-rezept h3{
+  margin: 0;
+}
+
+.rezepte{
+  margin: 0;
+  display: block;
+}
+
+.col{
+  margin-bottom: 4%
+}
+
 @media (min-width: 768px) {
-  .hero-text h1{
-    font-size: 3em;
-  }
+
   #burger{
     display: none;
   }
@@ -136,5 +172,17 @@ nav li{
   }
   nav li{
     float: left;
+  }
+
+
+  .hero-text h1{
+      font-size: 3em;
+    }
+
+  .col{
+    float: left;
+    width: 46%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 }
